@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Mechsuit";
+  src: url("/public/assets/fonts/Mechsuit.otf") format("truetype");
+}
+
+@font-face{
+  font-family: "Astro";
+  src: url("/public/assets/fonts/Astro-ZV68J.ttf") format("truetype");
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+  }
+
+  50% {
+    bottom: -20%;
+    left: 25%;
+    width: 50%;
+  }
+
+  100% {
+    bottom: -20%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#root {
+  height: 100svh;
+  font-family: "Mechsuit";
+  background: url('/public/assets/imgs/bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  align-self: center;
+}

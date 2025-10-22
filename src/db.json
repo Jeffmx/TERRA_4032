@@ -1,0 +1,24 @@
+{
+  "header":[
+    {
+      "h1": "Mecânicas",
+      "link": "Mechanics",
+      "bg": "/assets/imgs/mecanicas.png"
+    },
+    {
+      "h1": "Classes",
+      "link": "Classes",
+      "bg": "/assets/imgs/classes.png"
+    },
+    {
+      "h1": "Raças",
+      "link": "Races",
+      "bg": "/assets/imgs/races.png"
+    },
+    {
+      "h1": "Lore",
+      "link": "Lore",
+      "bg": "/assets/imgs/lore.png"
+    }
+  ]
+}
