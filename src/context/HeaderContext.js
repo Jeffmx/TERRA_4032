@@ -13,8 +13,14 @@ export function HeaderProvider({ children }) {
       const save = localStorage.getItem("alternado")
       if (save) setAlternado(save)
     }
-    setLoaded(true)
-  }, [location.pathname])
+    if (!loaded) {
+      if (location.pathname !== "/") {
+        const save = localStorage.getItem("alternado")
+        if (save) setAlternado(save)
+      }
+      setLoaded(true)
+    }
+  }, [location.pathname, loaded])
 
   useEffect(() => {
     if (alternado) localStorage.setItem("alternado", alternado)
