@@ -12,7 +12,7 @@ const Races = () => {
       </div>
       <div className="shadow">
         <section className="info">
-          <div className="corretor"></div>
+          <div className="corretor" style={{height:'100%'}}></div>
           <h1>automato</h1>
           <div className="race-info">
             <div className="info-selector">
