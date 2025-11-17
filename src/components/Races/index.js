@@ -25,11 +25,6 @@ const Races = () => {
               <h2>something 2</h2>
               <h2>something 3</h2>
             </div>
-            <div>
-              <svg className="status">
-                <path d="M0,0 250,0 125,200 0,0"/>
-              </svg>
-            </div>
           </div>
           <div>
 
