@@ -1,0 +1,41 @@
+.shadow-race {
+  width: 55%;
+  height: 40%;
+  margin-top: 3%;
+  margin-left: 35%;
+  transform: skew(30deg);
+  filter: drop-shadow(0px 0px 3px);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  h2{
+    color: white;
+    transform: skew(-30deg);
+    font-family: Astro;
+    letter-spacing: 5px;
+  }
+
+  div{
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@property --progress {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.progress {
+  width: 100px;
+  height: 100px;
+  transition: --progress .5s ease;
+  transform: skew(-30deg) scaleX(-1);
+  background: conic-gradient(var(--color) var(--progress), #363636 0deg);
+  mask-image: url("../../../public/assets/imgs/dot.png");
+  mask-size: cover;
+}

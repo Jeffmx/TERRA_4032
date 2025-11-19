@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 @font-face {
-  font-family: "Mechsuit";
-  src: url("/public/assets/fonts/Mechsuit.otf") format("truetype");
+  font-family: "Abstante";
+  src: url("/public/assets/fonts/Abstante-Regular.otf") format("truetype");
 }
 
 @font-face{
@@ -45,7 +47,8 @@
 
 #root {
   height: 100svh;
-  font-family: "Mechsuit";
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
   background: url('/public/assets/imgs/bg.png');
   background-position: center;
   background-size: cover;
@@ -53,6 +56,6 @@
 
 h1 {
   color: white;
-  font-size: 25px;
+  font-size: 36px;
   align-self: center;
 }

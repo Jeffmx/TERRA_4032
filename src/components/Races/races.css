@@ -12,60 +12,45 @@ main {
   filter: drop-shadow(-10px 0px 15px);
 }
 
-.display {
+.race-display {
   width: 100%;
   background: #363636;
   box-shadow: inset 0 0 30px;
-
 
   img {
     width: 40%;
     justify-items: center;
     padding: 40px 0 0 40px;
     filter: drop-shadow(0 0 30px);
-
   }
 }
 
-.select {
+.race-selector {
   right: 24.5%;
   height: 100%;
-  width: 34.1%;
+  width: 34%;
   position: absolute;
   background-color: #363636;
-  clip-path: polygon(50% 33%, 100% 100%, 0% 100%);
-
+  clip-path: polygon(50% 30%, 100% 100%, 0% 100%);
 }
 
-.info {
+.race-info {
   z-index: 1;
   right: 0;
-  width: 50%;
+  width: 49%;
   height: 100%;
   position: absolute;
   background-color: #363636;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 46% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%);
 
-  .corretor{
-    float: left;
-    width: 100%;
-    /* height: 100%; */
-    shape-outside: polygon(100% 100%, 0% 100%, 0% 0%, 46% 100%);
-  }
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 
-  h1{
+  h1 {
     font-size: 72px;
     text-align: center;
     font-family: Astro;
+    line-height: 2;
   }
-}
-
-.tas{
-  background-color: green;
-}
-
-.status{
-  width: 300px;
-  height: 200px;
-  justify-content: center;
 }

@@ -1,6 +1,6 @@
 import { HeaderProvider } from 'context/HeaderContext';
 import { Route, Routes } from 'react-router-dom';
-import Header from './components/Cabecalho';
+import Header from 'components/Cabecalho';
 import Mechanics from 'components/Mechanics';
 import Classes from 'components/Classes';
 import Races from 'components/Races';
