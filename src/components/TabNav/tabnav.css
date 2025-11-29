@@ -21,9 +21,10 @@
   height: 100%;
   background: #111c32;
   transform: skew(30deg);
+  cursor: pointer;
 
   .active {
-    display: inline-block;
+    transition: .3s;
     border-bottom: solid 3px cyan;
   }
 
@@ -36,16 +37,12 @@
     box-shadow: 0 10px 10px black;
     border-bottom: transparent 0px solid;
   }
-
-  h2:nth-last-child(1) {
-    /* box-shadow: none; */
-  }
 }
 
 .tab-display {
   width: 63%;
   height: 73%;
-  padding: 2% 2% 0 2%;
+  padding: 2% 2% 0% 2%;
   border-radius: 0 10px 10px 0;
   background: gray;
   color: #111c32;
@@ -57,6 +54,17 @@
   font-size: 10px;
   letter-spacing: 1px;
   line-height: 1.8em;
+
+  h2 {
+    position: absolute;
+    transform: translateX(-110%);
+  }
+
+  h2.active {
+    color: white;
+    transform: translateX(0%);
+    transition: .5s;
+  }
 }
 
 ::-webkit-scrollbar {

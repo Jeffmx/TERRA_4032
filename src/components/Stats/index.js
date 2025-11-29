@@ -18,15 +18,15 @@ const Stats = () => {
     <div className="shadow-race">
       <div>
         <Icon value={15} color={'gold'} />
-        <h2>atk</h2>
+        <h2>for</h2>
       </div>
       <div>
         <Icon value={15} color={'green'} />
-        <h2>int</h2>
+        <h2>con</h2>
       </div>
       <div>
         <Icon value={15} color={'cyan'} />
-        <h2>vel</h2>
+        <h2>agi</h2>
       </div>
       <div>
         <Icon value={15} color={'white'} />
@@ -37,7 +37,7 @@ const Stats = () => {
         <h2>alt</h2>
       </div>
       <div>
-        <Icon value={15} color={'white'} />
+        <Icon value={70} color={'white'} />
         <h2>res</h2>
       </div>
     </div>

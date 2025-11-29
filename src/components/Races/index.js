@@ -1,5 +1,6 @@
-import TabNav from "components/TabNav";
-import Stats from "components/Stats";
+import TabNav from "components/TabNav"
+import Stats from "components/Stats"
+import "jsons/races.json"
 import "./races.css"
 
 const Races = () => {
@@ -10,7 +11,26 @@ const Races = () => {
       </div>
 
       <div className="shadow">
-        <div className="race-selector"></div>
+        <section className="race-selector">
+          <div className="race-container">
+            <img className="race" width={'300px'} src="assets/imgs/races/automato.png"/>
+          </div>
+          <div className="race-container">
+            <img className="race" width={'300px'} src="assets/imgs/races/automato.png"/>
+          </div>
+          <div className="race-container">
+            <img className="race" width={'300px'} src="assets/imgs/races/automato.png"/>
+          </div>
+          <div className="race-container">
+            <img className="race" width={'300px'} src="assets/imgs/races/deteridion.png"/>
+          </div>
+          <div className="race-container">
+            <img className="race" width={'300px'} src="assets/imgs/races/humano.png"/>
+          </div>
+          <div className="race-container">
+            <img className="race" width={'300px'} src="assets/imgs/races/sanaridion.png"/>
+          </div>
+        </section>
       </div>
 
       <div className="shadow">
