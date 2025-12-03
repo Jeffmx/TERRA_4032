@@ -1,27 +1,29 @@
 [
   {
+    "index": 0,
     "name": "AUTOMATO",
     "img": "./assets/imgs/races/automato.png",
     "info":{
       "Sobre": "A morte parece algo impossível de ser alcançado para os Autômatos, com essa era digital e tecnológica toda sua existência pode ser guardada dentro do ciberespaço, um local digital onde tudo referente a eles são armazenados para backup, exceto seus corpos obviamente, mas ainda podem se manifestar em tecnologias apropriadas para suportar seus módulos existenciais. não muito supreendentemente, existem mais Autômatos do que humanos na terra",
-      "Talento": "Membros decepados podem ser reequipados gastando 1 PA. Contanto que 1 membro de seu corpo esteja funcionando, seu personagem não morre completamente. Ao separar algum de seus membros ele retirar 1 PA maximo seu e 1/6 da sua vida MAX (o resto dessa divisão vai para o torso) e a 1º movimentação não gasta PA",
-      "Poder": "Imune a sangramento e similares. Recebem 50% a mais de dano de sobrecarga. Função sobre forma: +3 em 1 STATUS a escolha"
+      "Talento": "Membros decepados podem ser instalados gastando 1 PA.\n\nContanto que 1 membro de seu corpo esteja funcionando, seu personagem não morre completamente.\n\nAo separar algum de seus membros ele retira 1 PA maximo seu e 1/6 da sua vida MAX (o resto dessa divisão vai para o torso) e a 1º movimentação não gasta PA",
+      "Poder": "Imune a sangramento e similares. Recebem 50% a mais de dano de sobrecarga.\n\nFunção sobre forma: +3 em 1 STATUS a escolha"
     },
     "status":{
-      "FOR" : [15, "red"],
-      "CON" : [15, "cyan"],
-      "AGI" : [15, "gold"],
+      "FOR" : [0, "red"],
+      "CON" : [0, "cyan"],
+      "AGI" : [0, "gold"],
       "PESO": [15, "white"],
       "ALT" : [30, "white"],
       "RES" : [30, "white"]
     }
   },
   {
+    "index": 1,
     "name": "ADETROPODIANO",
     "img": "./assets/imgs/races/adetropodiano.png",
     "info":{
       "Sobre": "Apesar da aparência intimidadora, os Adetropodianos são seres extremamente amigáveis, eles adoram se divertir em lugares que para outros seres seriam considerados mortíferos, por exemplo aposta corrida dando uma volta na parte interna da cratera de um vulcão ou quem consegue ficar de pé numa chuva de rochas de 100kg. Mesmo não parecendo ter noção do perigo, os mais jovens dessa espécie não costumam ter esse nível de resistência, quanto mais situações extremas eles passam, mais seu corpo vai se adaptando a esses cenários.",
-      "Talento": "Adicione +5 de dano para cada PA gasto dentro de 1 ação (até no MAX 3 PA's). Quando realizar 1 ação de ataque comum, você pode gastar até 2 PA's para fortalecer esse ATK.",
+      "Talento": "Adicione +5 de dano para cada PA gasto dentro de 1 ação (até no MAX 3 PA's).\n\nQuando realizar 1 ação de ataque básico, você pode gastar até 2 PA's para fortalecer esse ATK.",
       "Poder": "condições especiais duram 1 turno a menos."
     },
     "status":{
@@ -30,49 +32,52 @@
       "AGI" : [0, "gold"],
       "PESO": [50, "white"],
       "ALT" : [50, "white"],
-      "RES" : [70, "white"]
+      "RES" : [50, "white"]
     }
   },
   {
+    "index": 2,
     "name": "LIPOCINEANO",
     "img": "./assets/imgs/races/lipocineano.png",
     "info":{
-      "Sobre": "Por serem uma espécie dependente da gordura no corpo os Lipocineanos não costumam se exercitar muito então eles costumam fazer cara feia quando algum trabalho que desejam fazer exige muita atividade física, sem contar que eles não suportam lugares muito quentes, eles são encontrados principalmente em geleiras ou ambientes bem frios no seu planeta, alguns deles moram na terra por maioria dos trabalhos serem feitos digitalmente e gastando mais energia mental do que física.",
-      "Talento": "Você consegue armazenar dano físico após receber um ataque de contato não cortante. Sua capacidade MAX é igual a 1/4 da sua vida MAX e você absorve 1/2 do dano recebido. Receber dano de um ataque cortante faz você perder energia igual 1/2 do dano recebido.",
+      "Sobre": "Por serem uma espécie dependente da gordura no corpo os Lipocineanos não costumam se exercitar muito então eles tendem a fazer cara feia quando algum trabalho que desejam fazer exige muita atividade física, sem contar que eles não suportam lugares muito quentes, eles são encontrados principalmente em geleiras ou ambientes bem frios no seu planeta, alguns deles moram na terra por maioria dos trabalhos serem feitos digitalmente e gastando mais energia mental do que física.",
+      "Talento": "Você consegue armazenar dano físico após receber um ataque de contato não cortante.\n\nSua capacidade MAX é igual a 1/4 da sua vida MAX e você absorve 1/2 do dano recebido.\n\nReceber dano de um ataque cortante faz você perder energia igual 1/2 do dano recebido.",
       "Poder": "Você recebe metade do dano de impacto e colisão."
     },
     "status":{
-      "FOR" : [30, "red"],
+      "FOR" : [0, "red"],
       "CON" : [50, "cyan"],
       "AGI" : [0, "gold"],
-      "PESO": [50, "white"],
+      "PESO": [70, "white"],
       "ALT" : [50, "white"],
-      "RES" : [30, "white"]
-    }
-  },
-  {
-    "name": "SANARIDION",
-    "img": "./assets/imgs/races/sanaridion.png",
-    "info":{
-      "Sobre": "há relatos de que esses seres na verdade são de uma dimensão mesclada com a que conhecemos, dizem também que sua verdadeira aparência é totalmente desconhecida, desde sua primeira aparição a 54 anos atrás, até hoje, só existem 2 Sanaridions com identidade confirmada dentro dessa galáxia. Mesmo tendo contato com apenas 1 Sanarídion dentro da reserva florestal todos os dados obtidos dessa raça são extremamente escassos, eles parecem possuir a capacidade de pressentir sua raça e outros semelhantes de sua dimensão.",
-      "Talento": "Sempre que receber dano de um ataque (e não condição), você pode converter 1/4 do dano recebido como cura. Só é possível fazer isso 3x durante 1 batalha.",
-      "Poder": "Você pode pressentir a presença de outros seres vivos, essa sensação é mais forte quanto mais perigoso for esse individuo. Na 1x que um de seus status for diminuído, sua cura aumenta em +5 nas primeiras 3 ações de cura que fizer"
-    },
-    "status":{
-      "FOR" : [15, "red"],
-      "CON" : [30, "cyan"],
-      "AGI" : [0, "gold"],
-      "PESO": [30, "white"],
-      "ALT" : [30, "white"],
       "RES" : [15, "white"]
     }
   },
   {
+    "index": 3,
+    "name": "SANARIDION",
+    "img": "./assets/imgs/races/sanaridion.png",
+    "info":{
+      "Sobre": "há relatos de que esses seres na verdade são de uma dimensão mesclada com a que conhecemos, dizem também que sua verdadeira aparência é totalmente desconhecida, desde sua primeira aparição a 54 anos atrás, até hoje, só existem 2 Sanaridions com identidade confirmada dentro dessa galáxia. Mesmo tendo contato com apenas 1 Sanarídion dentro da reserva florestal todos os dados obtidos dessa raça são extremamente escassos, eles parecem possuir a capacidade de pressentir sua raça e outros semelhantes de sua dimensão.",
+      "Talento": "Sempre que receber dano de um ataque, você pode converter 1/4 do dano recebido como cura.\n\nSó é possível fazer isso 3x por batalha.",
+      "Poder": "Você pode pressentir a presença de outros seres vivos, essa sensação é mais forte quanto mais perigoso for esse individuo.\n\nNa 1x que um de seus status for diminuído, sua cura aumenta em +5 nas primeiras 3 ações de cura que fizer"
+    },
+    "status":{
+      "FOR" : [0, "red"],
+      "CON" : [30, "cyan"],
+      "AGI" : [30, "gold"],
+      "PESO": [30, "white"],
+      "ALT" : [30, "white"],
+      "RES" : [0, "white"]
+    }
+  },
+  {
+    "index": 4,
     "name": "HUMANO",
     "img": "./assets/imgs/races/humano.png",
     "info":{
       "Sobre": "Os Humanos possuem uma grande versatilidade em tudo que fazem, com o incrível avanço tecnológico eles são capazes de fazer o que milénios atrás era impossível, seu corpo conta com nano biotecnologia concedendo um boost significativo nas suas condições de vida, podendo saltar 3M, prender a respiração por mais de 2 horas e a capacidade de filtrar radiação em certos limites.",
-      "Talento": "Após anos de manipulação genética, os humanos podem  adquirir as habilidades de outras raças compatíveis e adicioná-las ao seu corpo. (As raças serão descobertas e desbloqueadas ao longo de sua jornada, possuindo suas proprios talentos e poderes).",
+      "Talento": "Após anos de manipulação genética, os humanos podem  adquirir as habilidades de outras raças compatíveis e adicioná-las ao seu corpo.\n\n(As raças serão descobertas ao longo de sua jornada, possuindo seus próprios talentos e poderes).",
       "Poder": "O melhor poder é a flexibilidade!"
     },
     "status":{
@@ -85,11 +90,12 @@
     }
   },
   {
+    "index": 5,
     "name": "DETERIDION",
     "img": "./assets/imgs/races/deteridion.png",
     "info":{
       "Sobre": "Eles parecem compartilhar a mesma origem dos Sanarídion e a mesma capacidade de pressentir seus semelhantes, porém eles em específico possuem uma capacidade fora do normal de em combates, sua pele tem uma aparência e textura mórbida como se fosse uma mera casca para esconder o que realmente esses seres são.",
-      "Talento": "Sempre que causar dano em um ataque (e não condição), você pode converter 1/4 do dano causado como cura. Só é possível fazer isso 3x durante 1 batalha.",
+      "Talento": "Sempre que causar dano em um ataque (e não condição), você pode converter 1/4 do dano causado como cura.\n\nSó é possível fazer isso 3x durante 1 batalha.",
       "Poder": "Você demonstra uma aura que emana carnificina e caos, todos seres vivos que podem te ver (Exceto sua raça) perdem 1 status a sua escolha no inicio do combate durante 3 turnos."
     },
     "status":{

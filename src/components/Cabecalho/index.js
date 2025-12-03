@@ -1,6 +1,6 @@
 import { useHeader } from 'context/HeaderContext'
 import { Link } from 'react-router-dom'
-import db from "db.json"
+import db from "jsons/db.json"
 import "./Cabecalho.css"
 
 const Cabecalho = () => {

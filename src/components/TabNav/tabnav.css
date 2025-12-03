@@ -63,17 +63,14 @@
   h2.active {
     color: white;
     transform: translateX(0%);
+    text-transform: uppercase;
+    white-space: pre-line;
     transition: .5s;
   }
 }
 
 ::-webkit-scrollbar {
   width: 20px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px black;
-  border-radius: 45px;
 }
 
 ::-webkit-scrollbar-thumb {
