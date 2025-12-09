@@ -10,16 +10,18 @@
   flex-direction: column;
   flex-wrap: wrap;
 
-  h2{
+  h2 {
     color: white;
-    transform: skew(-30deg);
+    font-size: 1.5em;
     font-family: Astro;
     letter-spacing: 5px;
+    transform: skew(-30deg);
   }
 
-  div{
-    display: flex;
+  .status-container {
     align-items: center;
+    display: flex;
+    height: 30%;
   }
 
 }
@@ -31,8 +33,9 @@
 }
 
 .progress {
-  width: 100px;
-  height: 100px;
+  width: 45%;
+  height: 100%;
+  
   transition: --progress .5s ease;
   transform: skew(-30deg) scaleX(-1);
   background: conic-gradient(var(--color) var(--progress), #363636 0deg);

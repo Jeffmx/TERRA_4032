@@ -17,7 +17,7 @@ const Stats = ({status}) => {
   return (
     <div className="shadow-race">
       {Object.entries(status).map(([stat, value]) => (
-        <div >
+        <div className="status-container">
           <Icon value={value[0]} color={value[1]} />
           <h2>{stat}</h2>
         </div>
