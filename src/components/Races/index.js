@@ -17,7 +17,7 @@ const Races = () => {
         <section className="race-selector">
           {raceList.map((race) => (
             <div onClick={() => setActiveRace(race.index)} className={activeRace === race.index ? "race-container race-active" : 'race-container'} key={race.name}>
-              <img className="race" width={'300px'} src={race.img} alt={race.name} />
+              <img className="race" width={'280px'} src={race.img} alt={race.name} />
             </div>
           ))}
         </section>

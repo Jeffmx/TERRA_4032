@@ -2,6 +2,7 @@ main {
   width: 100%;
   height: calc(100svh - 100px);
   position: relative;
+  overflow: hidden;
   display: flex;
 }
 
@@ -9,14 +10,17 @@ main {
   width: 100%;
   height: 100%;
   position: absolute;
-  filter: drop-shadow(-10px 0px 15px);
   pointer-events: none;
+  filter: drop-shadow(-10px 0px 15px);
 }
 
 .race-display {
   width: 100%;
   background: #363636;
   box-shadow: inset 0 0 30px;
+  align-items: center;
+  padding-left: 40px;
+  display: flex;
 }
 
 .race-selector {
@@ -29,8 +33,8 @@ main {
   clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 
   display: grid;
-  grid-template-columns: repeat(5, 70px);
-  grid-template-rows: repeat(3, 110px);
+  grid-template-columns: repeat(5, 11%);
+  grid-template-rows: repeat(3, 20%);
   justify-content: center;
   justify-items: center;
   align-content: center;
@@ -51,8 +55,8 @@ main {
 }
 
 .race-container {
-  width: 120px;
-  height: 200px;
+  width: 170%;
+  height: 180%;
   display: flex;
   cursor: pointer;
   transition: .3s;
@@ -66,6 +70,7 @@ main {
 .race-container:hover {
   transform: scale(1.3);
   filter: blur();
+  z-index: 1;
 }
 
 .race-active {
@@ -104,7 +109,7 @@ main {
 }
 
 .animar-texto {
-  font-size: 72px;
+  font-size: 3.3em;
   text-align: center;
   font-family: Astro;
   line-height: 2;
@@ -118,7 +123,6 @@ main {
 .animar-img {
   width: 40%;
   justify-items: center;
-  padding: 40px 0 0 40px;
   filter: drop-shadow(0 0 30px);
 
   animation: fadeIn .3s ease-in;
