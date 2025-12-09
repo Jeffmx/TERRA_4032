@@ -5,7 +5,7 @@
     "img": "./assets/imgs/races/automato.png",
     "info":{
       "Sobre": "A morte parece algo impossível de ser alcançado para os Autômatos, com essa era digital e tecnológica toda sua existência pode ser guardada dentro do ciberespaço, um local digital onde tudo referente a eles são armazenados para backup, exceto seus corpos obviamente, mas ainda podem se manifestar em tecnologias apropriadas para suportar seus módulos existenciais. não muito supreendentemente, existem mais Autômatos do que humanos na terra",
-      "Talento": "Membros decepados podem ser instalados gastando 1 PA.\n\nContanto que 1 membro de seu corpo esteja funcionando, seu personagem não morre completamente.\n\nAo separar algum de seus membros ele retira 1 PA maximo seu e 1/6 da sua vida MAX (o resto dessa divisão vai para o torso) e a 1º movimentação não gasta PA",
+      "Talento": "Membros decepados podem ser instalados gastando 1 P.A.\n\nContanto que 1 membro de seu corpo esteja funcionando, seu personagem não morre completamente.\n\nAo separar algum de seus membros ele retira 1 PA maximo seu e 1/6 da sua vida MAX (o resto dessa divisão vai para o torso) e a 1º movimentação não gasta PA",
       "Poder": "Imune a sangramento e similares. Recebem 50% a mais de dano de sobrecarga.\n\nFunção sobre forma: +3 em 1 STATUS a escolha"
     },
     "status":{
